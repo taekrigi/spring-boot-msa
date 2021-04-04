@@ -1,0 +1,4 @@
+rootProject.name = 'spring-boot-msa'
+
+include ':batch', ':product', ':display'
+
