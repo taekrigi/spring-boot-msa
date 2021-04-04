@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("main")
-public class MainController {
+@RequestMapping("display")
+public class DisplayController {
 
 	@GetMapping
-	public String home() {
+	public String displayProduct() {
 		return "Hello World";
 	}
 }

@@ -40,6 +40,8 @@ allprojects {
 	}
 
 	dependencies {
+		compileOnly 'org.projectlombok:lombok'
+    	annotationProcessor 'org.projectlombok:lombok'
 		compile('org.springframework.boot:spring-boot-starter-web')
 	}
 }
@@ -52,4 +54,6 @@ dependencies {
 	compile project(':batch')
 	compile project(':product')
 	compile project(':display')
+	compile project(':eureka')
+	compile project(':zuul')
 }
